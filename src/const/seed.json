@@ -1,0 +1,2122 @@
+[
+  {
+    "profile": [
+      {
+        "id": "11d226c7-6e43-4038-98a8-5e0aea353580",
+        "bio": "Passionate about technology",
+        "location": "New York",
+        "website": "www.johndoe.com",
+        "created_at": "2023-09-08T05:34:08.369Z",
+        "updated_at": "2023-09-08T00:29:04.333Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0685027-6ea4-4da1-bd8d-7af8ecaaa2f7",
+        "bio": "Nature lover and adventurer",
+        "location": "London",
+        "website": "www.janesmith.com",
+        "created_at": "2023-09-07T08:39:47.840Z",
+        "updated_at": "2023-09-07T23:24:02.488Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d88450db-cb14-4cc0-9db5-8557a7451569",
+        "bio": "Food enthusiast and chef",
+        "location": "Paris",
+        "website": "www.michaelbrown.com",
+        "created_at": "2023-09-07T20:59:31.743Z",
+        "updated_at": "2023-09-07T08:02:45.698Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "424809dd-9849-4d9f-9b62-872a47a7fa34",
+        "bio": "Music lover and guitarist",
+        "location": "Tokyo",
+        "website": "www.sarahjones.com",
+        "created_at": "2023-09-07T21:34:18.578Z",
+        "updated_at": "2023-09-07T12:25:18.292Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4eed257e-5d28-4216-893e-9af265a98115",
+        "bio": "Fitness freak and marathon runner",
+        "location": "Sydney",
+        "website": "www.robertwilson.com",
+        "created_at": "2023-09-08T05:25:57.176Z",
+        "updated_at": "2023-09-08T05:51:24.590Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "deposit": [
+      {
+        "id": "27ff538f-06dc-4cd3-8954-b61b47bc8541",
+        "amount": 25711,
+        "currency": "USD",
+        "created_at": "2023-09-07T12:18:54.849Z",
+        "updated_at": "2023-09-08T00:20:44.179Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a00339b0-95a6-41fe-b162-c9ef480557de",
+        "amount": 38917,
+        "currency": "EUR",
+        "created_at": "2023-09-07T22:37:27.438Z",
+        "updated_at": "2023-09-07T14:31:40.612Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc82de45-22dc-4142-bc63-2c78a18146a4",
+        "amount": 55619,
+        "currency": "GBP",
+        "created_at": "2023-09-07T13:21:18.919Z",
+        "updated_at": "2023-09-07T10:37:45.375Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "534797b6-9132-4954-b537-4d8395a16802",
+        "amount": 51263,
+        "currency": "JPY",
+        "created_at": "2023-09-07T15:30:45.065Z",
+        "updated_at": "2023-09-08T00:41:34.239Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8007373-26fb-4a59-825b-6ec055347f10",
+        "amount": 17307,
+        "currency": "AUD",
+        "created_at": "2023-09-08T06:22:46.505Z",
+        "updated_at": "2023-09-07T09:01:49.229Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "profit": [
+      {
+        "id": "2ab27107-ad8f-4c06-919e-5cfe4896987a",
+        "percentage_gain": 0.650054102530703,
+        "created_at": "2023-09-07T13:16:59.788Z",
+        "updated_at": "2023-09-07T19:37:43.514Z",
+        "deposit_id": "e8007373-26fb-4a59-825b-6ec055347f10"
+      },
+      {
+        "id": "3e81ce4c-bb88-40bc-a9c1-e637a0d62e1f",
+        "percentage_gain": 0.48920797533355653,
+        "created_at": "2023-09-07T18:20:47.227Z",
+        "updated_at": "2023-09-07T13:13:15.403Z",
+        "deposit_id": "fc82de45-22dc-4142-bc63-2c78a18146a4"
+      },
+      {
+        "id": "617d97b5-37d0-4269-a5d4-245f1f12e7c3",
+        "percentage_gain": 0.33236348163336515,
+        "created_at": "2023-09-07T17:44:49.122Z",
+        "updated_at": "2023-09-08T02:46:14.547Z",
+        "deposit_id": "27ff538f-06dc-4cd3-8954-b61b47bc8541"
+      },
+      {
+        "id": "ae9843fa-8ced-4d35-989b-f7f4db088f9d",
+        "percentage_gain": 0.31403118721209466,
+        "created_at": "2023-09-07T10:45:35.961Z",
+        "updated_at": "2023-09-07T08:38:24.649Z",
+        "deposit_id": "534797b6-9132-4954-b537-4d8395a16802"
+      },
+      {
+        "id": "657d5eb8-e8a8-4d9e-aac1-1cd266ea6e8d",
+        "percentage_gain": 0.24622943974100053,
+        "created_at": "2023-09-08T00:02:31.472Z",
+        "updated_at": "2023-09-07T21:36:16.044Z",
+        "deposit_id": "27ff538f-06dc-4cd3-8954-b61b47bc8541"
+      }
+    ],
+    "mining": [
+      {
+        "id": "42d71675-f5af-422f-a02d-16ad3a3a7b7e",
+        "mining_date": "2023-09-08T03:41:07.321Z",
+        "created_at": "2023-09-07T22:17:03.376Z",
+        "updated_at": "2023-09-08T02:45:52.844Z",
+        "profit_id": "3e81ce4c-bb88-40bc-a9c1-e637a0d62e1f"
+      },
+      {
+        "id": "d262d6e6-3b52-4c81-b684-63c813228b8d",
+        "mining_date": "2023-09-07T08:39:28.645Z",
+        "created_at": "2023-09-08T03:37:47.812Z",
+        "updated_at": "2023-09-07T21:51:15.470Z",
+        "profit_id": "617d97b5-37d0-4269-a5d4-245f1f12e7c3"
+      },
+      {
+        "id": "68e91632-79e6-4e52-b98b-d8a471794d39",
+        "mining_date": "2023-09-07T11:44:25.557Z",
+        "created_at": "2023-09-07T15:50:40.009Z",
+        "updated_at": "2023-09-07T22:42:36.684Z",
+        "profit_id": "3e81ce4c-bb88-40bc-a9c1-e637a0d62e1f"
+      },
+      {
+        "id": "54f51d08-02df-4f39-99c1-d1359a2ae07e",
+        "mining_date": "2023-09-08T02:16:44.022Z",
+        "created_at": "2023-09-07T14:10:26.574Z",
+        "updated_at": "2023-09-07T07:52:24.013Z",
+        "profit_id": "657d5eb8-e8a8-4d9e-aac1-1cd266ea6e8d"
+      },
+      {
+        "id": "49152134-dea7-4765-860f-8dd36ff36cb7",
+        "mining_date": "2023-09-07T23:39:25.871Z",
+        "created_at": "2023-09-08T01:26:55.490Z",
+        "updated_at": "2023-09-07T20:15:31.761Z",
+        "profit_id": "657d5eb8-e8a8-4d9e-aac1-1cd266ea6e8d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e68b47a8-7f79-4b88-8dbd-60acc0b0fdc4",
+        "email": "Shana.Schimmel@gmail.com",
+        "firstName": "Adolfo",
+        "lastName": "Lueilwitz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65260635",
+        "tenantId": null
+      },
+      {
+        "reference": "695b85e8-77f2-4730-a8ed-85266ce387e4",
+        "email": "Wiley93@gmail.com",
+        "firstName": "Julia",
+        "lastName": "Nicolas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/628.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "42116599-7dee-4e58-bb5b-ea122ebbd1d0",
+        "email": "Arno52@gmail.com",
+        "firstName": "Tamia",
+        "lastName": "McKenzie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94670288",
+        "tenantId": null
+      },
+      {
+        "reference": "1a7dabed-af32-4de0-aa2d-52ee67c0d01d",
+        "email": "Nikki44@gmail.com",
+        "firstName": "Alf",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28537741",
+        "tenantId": null
+      },
+      {
+        "reference": "3b23ccd7-3c09-4afa-a06a-775342c4051d",
+        "email": "Bettie_Beier52@yahoo.com",
+        "firstName": "Wilber",
+        "lastName": "Auer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45057328",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "faf16fb6-fc5b-4e5f-aa60-6072210ebbe3",
+        "bio": "Passionate about photography",
+        "location": "New York",
+        "website": "www.johndoe.com",
+        "created_at": "2023-09-08T03:42:05.215Z",
+        "updated_at": "2023-09-07T17:16:52.755Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec1459bf-5f1d-4ef4-9445-5842b7d7734e",
+        "bio": "Nature lover and adventurer",
+        "location": "London",
+        "website": "www.janedoe.com",
+        "created_at": "2023-09-07T12:17:57.133Z",
+        "updated_at": "2023-09-07T07:20:44.824Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94b6b2d1-8a66-451c-a418-365ee270a4aa",
+        "bio": "Tech enthusiast",
+        "location": "Paris",
+        "website": "www.mikesmith.com",
+        "created_at": "2023-09-07T13:57:14.752Z",
+        "updated_at": "2023-09-08T02:15:25.131Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17877592-3ad7-4544-b117-963b914dc49c",
+        "bio": "Foodie and travel blogger",
+        "location": "Tokyo",
+        "website": "www.emilyjones.com",
+        "created_at": "2023-09-07T21:36:09.280Z",
+        "updated_at": "2023-09-07T11:36:29.504Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09104fcb-2ce2-428c-ab9f-2c73555ac4dc",
+        "bio": "Fitness freak",
+        "location": "Sydney",
+        "website": "www.alexwilson.com",
+        "created_at": "2023-09-07T12:08:44.677Z",
+        "updated_at": "2023-09-08T04:40:27.591Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "deposit": [
+      {
+        "id": "604af69e-4816-40e7-a747-693bd6f90a48",
+        "amount": 11088,
+        "currency": "USD",
+        "created_at": "2023-09-07T08:21:07.313Z",
+        "updated_at": "2023-09-07T14:57:27.652Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6cd69eee-c082-4293-b2b5-e13e78ed98cc",
+        "amount": 99869,
+        "currency": "EUR",
+        "created_at": "2023-09-07T09:18:28.578Z",
+        "updated_at": "2023-09-08T00:08:36.015Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36e916a0-4a8e-4859-abb5-9e2ceafa99d5",
+        "amount": 4789,
+        "currency": "GBP",
+        "created_at": "2023-09-07T20:33:45.833Z",
+        "updated_at": "2023-09-08T05:40:42.400Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "693ba456-8ae4-4e94-b8d1-7b78a235b9b5",
+        "amount": 4408,
+        "currency": "JPY",
+        "created_at": "2023-09-07T15:30:03.502Z",
+        "updated_at": "2023-09-07T19:46:17.748Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2cec2e05-43d7-44f5-9743-3ec4a81e5393",
+        "amount": 15813,
+        "currency": "AUD",
+        "created_at": "2023-09-07T20:31:01.402Z",
+        "updated_at": "2023-09-08T07:13:14.790Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "profit": [
+      {
+        "id": "1765ece1-eb20-4b90-bc73-d5198e16c039",
+        "percentage_gain": 0.37279598298482597,
+        "created_at": "2023-09-07T17:45:05.624Z",
+        "updated_at": "2023-09-08T06:31:37.094Z",
+        "deposit_id": "2cec2e05-43d7-44f5-9743-3ec4a81e5393"
+      },
+      {
+        "id": "7b4a548d-95f2-48b4-b0b3-5c94caa2d3f2",
+        "percentage_gain": 0.006453306181356311,
+        "created_at": "2023-09-07T16:43:58.154Z",
+        "updated_at": "2023-09-08T05:00:42.098Z",
+        "deposit_id": "2cec2e05-43d7-44f5-9743-3ec4a81e5393"
+      },
+      {
+        "id": "e457c651-ba08-4f57-a97f-73d94f9da02b",
+        "percentage_gain": 0.8900304501876235,
+        "created_at": "2023-09-07T11:20:12.222Z",
+        "updated_at": "2023-09-07T23:49:41.904Z",
+        "deposit_id": "693ba456-8ae4-4e94-b8d1-7b78a235b9b5"
+      },
+      {
+        "id": "9ab7f457-3446-48ac-a6d5-f32d2e8b9fb9",
+        "percentage_gain": 0.10632919240742922,
+        "created_at": "2023-09-08T04:02:35.663Z",
+        "updated_at": "2023-09-07T21:46:33.991Z",
+        "deposit_id": "2cec2e05-43d7-44f5-9743-3ec4a81e5393"
+      },
+      {
+        "id": "793fe413-54b0-4f82-b61a-1765f71ec172",
+        "percentage_gain": 0.7817612199578434,
+        "created_at": "2023-09-07T18:15:58.253Z",
+        "updated_at": "2023-09-08T05:55:04.825Z",
+        "deposit_id": "604af69e-4816-40e7-a747-693bd6f90a48"
+      }
+    ],
+    "mining": [
+      {
+        "id": "92597738-363d-4a0f-8ddc-d434908bde6a",
+        "mining_date": "2023-09-07T20:48:48.670Z",
+        "created_at": "2023-09-07T20:05:10.320Z",
+        "updated_at": "2023-09-07T09:59:57.174Z",
+        "profit_id": "e457c651-ba08-4f57-a97f-73d94f9da02b"
+      },
+      {
+        "id": "1736b017-68ea-4e36-9e0f-c7456557a613",
+        "mining_date": "2023-09-08T02:15:18.301Z",
+        "created_at": "2023-09-07T18:34:19.984Z",
+        "updated_at": "2023-09-08T05:54:15.580Z",
+        "profit_id": "e457c651-ba08-4f57-a97f-73d94f9da02b"
+      },
+      {
+        "id": "1b41c94c-2f6c-4c47-b1f6-1ddcc1f623e8",
+        "mining_date": "2023-09-07T23:23:14.758Z",
+        "created_at": "2023-09-07T09:42:03.191Z",
+        "updated_at": "2023-09-07T17:38:51.859Z",
+        "profit_id": "793fe413-54b0-4f82-b61a-1765f71ec172"
+      },
+      {
+        "id": "5c3ef5a1-de6a-498c-8a7b-285f69f02d57",
+        "mining_date": "2023-09-07T16:30:07.639Z",
+        "created_at": "2023-09-08T01:35:58.982Z",
+        "updated_at": "2023-09-08T04:44:09.782Z",
+        "profit_id": "9ab7f457-3446-48ac-a6d5-f32d2e8b9fb9"
+      },
+      {
+        "id": "4a4bc207-e140-419c-aded-030fa69902c9",
+        "mining_date": "2023-09-08T03:25:06.230Z",
+        "created_at": "2023-09-07T09:45:44.770Z",
+        "updated_at": "2023-09-07T18:51:03.611Z",
+        "profit_id": "e457c651-ba08-4f57-a97f-73d94f9da02b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f4adfdab-46c0-408d-a763-77be7748ac4a",
+        "email": "Jennie9@gmail.com",
+        "firstName": "Alyce",
+        "lastName": "Hagenes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95941467",
+        "tenantId": null
+      },
+      {
+        "reference": "74fc51b5-d979-4d9e-8b8b-c4d8ad352a98",
+        "email": "Bryana_Hirthe85@yahoo.com",
+        "firstName": "Alexanne",
+        "lastName": "Fritsch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1119.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b6b80df8-9e3a-41f1-b9a0-1dbf5a46b108",
+        "email": "Kira.Kulas@gmail.com",
+        "firstName": "Pasquale",
+        "lastName": "Watsica-Rosenbaum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23890663",
+        "tenantId": null
+      },
+      {
+        "reference": "8318de59-323f-457c-97e5-a13450f403a7",
+        "email": "Imelda.Krajcik43@yahoo.com",
+        "firstName": "Leon",
+        "lastName": "Hettinger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/606.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8e636aab-4b14-4b38-abf0-0a29978f793e",
+        "email": "Jaleel.Howell66@hotmail.com",
+        "firstName": "Tony",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1154.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "7ca7ba22-eabf-47ab-8093-100f7f5137f0",
+        "bio": "Passionate about technology",
+        "location": "New York",
+        "website": "www.johndoe.com",
+        "created_at": "2023-09-07T21:40:19.200Z",
+        "updated_at": "2023-09-08T00:14:23.989Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c934ece-f814-4e6a-b647-2348d1e727b9",
+        "bio": "Exploring new places",
+        "location": "London",
+        "website": "www.janesmith.com",
+        "created_at": "2023-09-08T05:39:53.435Z",
+        "updated_at": "2023-09-07T14:17:39.923Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "904ce9eb-978a-4eda-a0bd-3d60cfb43ae0",
+        "bio": "Loves outdoor activities",
+        "location": "Tokyo",
+        "website": "www.michaelbrown.com",
+        "created_at": "2023-09-07T19:37:29.085Z",
+        "updated_at": "2023-09-07T16:35:04.778Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be16cf65-1e4e-4064-a4e6-6b051c945ae9",
+        "bio": "Enjoys cooking",
+        "location": "Sydney",
+        "website": "www.sarahjones.com",
+        "created_at": "2023-09-08T05:02:57.806Z",
+        "updated_at": "2023-09-07T10:45:15.861Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "264ec08e-2e73-4511-9288-965332ea36c6",
+        "bio": "Avid reader",
+        "location": "Paris",
+        "website": "www.davidwilson.com",
+        "created_at": "2023-09-07T14:01:35.994Z",
+        "updated_at": "2023-09-08T02:55:25.139Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "deposit": [
+      {
+        "id": "0fc90e5d-26ad-4250-8ba1-d219ac2fac57",
+        "amount": 67547,
+        "currency": "USD",
+        "created_at": "2023-09-07T10:20:06.305Z",
+        "updated_at": "2023-09-07T09:34:53.182Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b344db37-8d44-4a9e-914c-e2a551f44dce",
+        "amount": 4239,
+        "currency": "EUR",
+        "created_at": "2023-09-07T23:09:03.337Z",
+        "updated_at": "2023-09-07T08:33:58.795Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07807e11-d2b8-4fbf-8dd2-47ebe304612c",
+        "amount": 37892,
+        "currency": "GBP",
+        "created_at": "2023-09-07T09:18:04.911Z",
+        "updated_at": "2023-09-07T08:24:29.519Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ad95609-d3a5-4d2c-9d12-0ee6dfe7363b",
+        "amount": 97343,
+        "currency": "JPY",
+        "created_at": "2023-09-07T23:44:53.466Z",
+        "updated_at": "2023-09-07T23:23:36.503Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10c27568-6101-4a20-b71b-19e4d7118beb",
+        "amount": 89418,
+        "currency": "AUD",
+        "created_at": "2023-09-07T19:30:40.440Z",
+        "updated_at": "2023-09-07T18:47:52.532Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "profit": [
+      {
+        "id": "ef4c7030-b3f3-432e-8d97-3b6b96d9a48a",
+        "percentage_gain": 0.7326852788683027,
+        "created_at": "2023-09-07T10:49:37.139Z",
+        "updated_at": "2023-09-07T23:22:49.788Z",
+        "deposit_id": "b344db37-8d44-4a9e-914c-e2a551f44dce"
+      },
+      {
+        "id": "071aefa7-d652-45a9-887a-2df1a83984c4",
+        "percentage_gain": 0.734341444214806,
+        "created_at": "2023-09-07T22:49:24.127Z",
+        "updated_at": "2023-09-08T04:54:03.948Z",
+        "deposit_id": "8ad95609-d3a5-4d2c-9d12-0ee6dfe7363b"
+      },
+      {
+        "id": "07ad026e-b769-4760-9aa7-f09282b013d9",
+        "percentage_gain": 0.942264563171193,
+        "created_at": "2023-09-07T23:11:01.370Z",
+        "updated_at": "2023-09-07T08:10:19.323Z",
+        "deposit_id": "07807e11-d2b8-4fbf-8dd2-47ebe304612c"
+      },
+      {
+        "id": "ff17894d-0534-4592-abb2-8722e5b244fa",
+        "percentage_gain": 0.6978952931240201,
+        "created_at": "2023-09-07T17:11:13.860Z",
+        "updated_at": "2023-09-07T16:31:33.260Z",
+        "deposit_id": "8ad95609-d3a5-4d2c-9d12-0ee6dfe7363b"
+      },
+      {
+        "id": "400636b8-8768-499f-b2d1-6a2e29884bd6",
+        "percentage_gain": 0.42337039671838284,
+        "created_at": "2023-09-07T20:00:24.416Z",
+        "updated_at": "2023-09-07T11:53:30.644Z",
+        "deposit_id": "10c27568-6101-4a20-b71b-19e4d7118beb"
+      }
+    ],
+    "mining": [
+      {
+        "id": "da9987a3-c551-485f-b637-4ab7f515bca8",
+        "mining_date": "2023-09-07T19:56:34.721Z",
+        "created_at": "2023-09-07T19:00:21.698Z",
+        "updated_at": "2023-09-08T01:39:22.210Z",
+        "profit_id": "07ad026e-b769-4760-9aa7-f09282b013d9"
+      },
+      {
+        "id": "09acf972-d2ba-48fa-a4b0-fd93adad5957",
+        "mining_date": "2023-09-07T14:21:11.235Z",
+        "created_at": "2023-09-08T01:28:02.763Z",
+        "updated_at": "2023-09-07T15:53:40.373Z",
+        "profit_id": "071aefa7-d652-45a9-887a-2df1a83984c4"
+      },
+      {
+        "id": "25410341-9b91-46d6-8933-28ed85780e99",
+        "mining_date": "2023-09-08T06:02:37.847Z",
+        "created_at": "2023-09-07T17:35:37.222Z",
+        "updated_at": "2023-09-07T18:47:37.030Z",
+        "profit_id": "400636b8-8768-499f-b2d1-6a2e29884bd6"
+      },
+      {
+        "id": "198601a1-91d2-4126-9a79-4153c53c2e6c",
+        "mining_date": "2023-09-07T15:01:44.323Z",
+        "created_at": "2023-09-07T18:37:58.356Z",
+        "updated_at": "2023-09-07T11:21:51.999Z",
+        "profit_id": "ef4c7030-b3f3-432e-8d97-3b6b96d9a48a"
+      },
+      {
+        "id": "26ba5e13-b4ff-4951-8290-1aad91b078a7",
+        "mining_date": "2023-09-07T11:08:18.011Z",
+        "created_at": "2023-09-08T06:25:48.091Z",
+        "updated_at": "2023-09-08T02:09:40.943Z",
+        "profit_id": "ff17894d-0534-4592-abb2-8722e5b244fa"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ce1b482a-e734-40f2-bf4d-88c9d166b946",
+        "email": "Jodie_Mills7@hotmail.com",
+        "firstName": "Julio",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/312.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "75a4420c-cd04-46d9-a1f8-de3458836df7",
+        "email": "Ross17@yahoo.com",
+        "firstName": "Franco",
+        "lastName": "Lindgren",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/817.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a8fb50ef-3207-4121-85aa-548d9d284a5f",
+        "email": "Mathias.Haag@gmail.com",
+        "firstName": "Lavern",
+        "lastName": "Vandervort",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8109315",
+        "tenantId": null
+      },
+      {
+        "reference": "969eee98-abe9-4eea-a2f8-af3fa8634d61",
+        "email": "Declan12@hotmail.com",
+        "firstName": "Weston",
+        "lastName": "Towne",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/584.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "99ea4874-4b98-4bc1-bdaf-2722424b352a",
+        "email": "Barney_Kozey@yahoo.com",
+        "firstName": "Jennifer",
+        "lastName": "Block",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86842305",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "64dd2274-d94e-475f-b88d-dfd806646781",
+        "bio": "Passionate about technology",
+        "location": "New York",
+        "website": "www.johndoe.com",
+        "created_at": "2023-09-07T15:37:23.997Z",
+        "updated_at": "2023-09-08T05:22:20.130Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a65bd738-9940-4f86-aa67-ad66936bce76",
+        "bio": "Explorer of new places",
+        "location": "London",
+        "website": "www.janesmith.com",
+        "created_at": "2023-09-07T18:15:22.296Z",
+        "updated_at": "2023-09-08T01:35:34.588Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e052d8d-6cc0-4895-ad5f-a9d3833eba5a",
+        "bio": "Lover of all things nature",
+        "location": "Paris",
+        "website": "www.michaelbrown.com",
+        "created_at": "2023-09-08T02:19:12.512Z",
+        "updated_at": "2023-09-07T14:17:51.966Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12b8b61c-d44c-48aa-9bc1-ac263477e294",
+        "bio": "Adventurous spirit",
+        "location": "Tokyo",
+        "website": "www.sarahjones.com",
+        "created_at": "2023-09-07T14:08:16.953Z",
+        "updated_at": "2023-09-07T16:21:27.169Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "552eca4b-5997-4966-85c9-3d3ac0f18467",
+        "bio": "Food enthusiast",
+        "location": "Sydney",
+        "website": "www.robertwilson.com",
+        "created_at": "2023-09-07T22:47:37.615Z",
+        "updated_at": "2023-09-07T22:24:50.480Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "deposit": [
+      {
+        "id": "70e7a2f4-2905-4397-b518-bada871cc942",
+        "amount": 19034,
+        "currency": "USD",
+        "created_at": "2023-09-08T02:51:20.848Z",
+        "updated_at": "2023-09-07T17:38:20.591Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9be666c-81e0-49b5-90f1-0e577ad694ba",
+        "amount": 70515,
+        "currency": "EUR",
+        "created_at": "2023-09-08T00:57:55.732Z",
+        "updated_at": "2023-09-07T15:10:35.684Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14845e22-e7e4-4f13-a09d-a8aae48505ed",
+        "amount": 47456,
+        "currency": "GBP",
+        "created_at": "2023-09-07T20:44:11.919Z",
+        "updated_at": "2023-09-07T22:36:22.028Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95ba97c5-b520-46f8-95cd-8bab73858d81",
+        "amount": 55869,
+        "currency": "JPY",
+        "created_at": "2023-09-07T10:52:13.422Z",
+        "updated_at": "2023-09-07T21:51:21.679Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "996a07ef-8fcf-4a6f-b834-c09b61fa5b35",
+        "amount": 86645,
+        "currency": "AUD",
+        "created_at": "2023-09-08T01:39:16.164Z",
+        "updated_at": "2023-09-07T08:54:31.203Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "profit": [
+      {
+        "id": "f7e654f0-0495-42c3-8086-81e32b7fe8d2",
+        "percentage_gain": 0.30665566422976553,
+        "created_at": "2023-09-07T12:58:13.946Z",
+        "updated_at": "2023-09-07T16:35:16.042Z",
+        "deposit_id": "70e7a2f4-2905-4397-b518-bada871cc942"
+      },
+      {
+        "id": "699d1c87-a83d-44d1-bc83-50b6f612c7ce",
+        "percentage_gain": 0.2548042698763311,
+        "created_at": "2023-09-07T17:18:53.307Z",
+        "updated_at": "2023-09-07T23:42:12.001Z",
+        "deposit_id": "95ba97c5-b520-46f8-95cd-8bab73858d81"
+      },
+      {
+        "id": "191ca54d-5ceb-482e-bd2f-2f30d66f420c",
+        "percentage_gain": 0.8151842476800084,
+        "created_at": "2023-09-08T04:17:20.900Z",
+        "updated_at": "2023-09-07T18:38:44.923Z",
+        "deposit_id": "d9be666c-81e0-49b5-90f1-0e577ad694ba"
+      },
+      {
+        "id": "5ea99dfe-4026-4f60-8069-5e5d74e0aef9",
+        "percentage_gain": 0.15606211475096643,
+        "created_at": "2023-09-07T20:13:31.858Z",
+        "updated_at": "2023-09-08T02:56:56.581Z",
+        "deposit_id": "70e7a2f4-2905-4397-b518-bada871cc942"
+      },
+      {
+        "id": "1f795785-049b-4f47-a408-f04e682499e1",
+        "percentage_gain": 0.010200128192082047,
+        "created_at": "2023-09-08T04:35:08.607Z",
+        "updated_at": "2023-09-07T19:35:54.921Z",
+        "deposit_id": "70e7a2f4-2905-4397-b518-bada871cc942"
+      }
+    ],
+    "mining": [
+      {
+        "id": "9211c079-4401-497f-8ff5-c1e6cf14332d",
+        "mining_date": "2023-09-07T11:07:45.618Z",
+        "created_at": "2023-09-08T07:01:54.823Z",
+        "updated_at": "2023-09-08T03:21:12.896Z",
+        "profit_id": "191ca54d-5ceb-482e-bd2f-2f30d66f420c"
+      },
+      {
+        "id": "a895825e-47f2-4a08-a1f7-7020bc0a71b0",
+        "mining_date": "2023-09-08T04:35:25.736Z",
+        "created_at": "2023-09-08T05:52:30.834Z",
+        "updated_at": "2023-09-07T16:47:51.222Z",
+        "profit_id": "f7e654f0-0495-42c3-8086-81e32b7fe8d2"
+      },
+      {
+        "id": "a6456519-f637-42c8-adb1-786d5f14cf2d",
+        "mining_date": "2023-09-07T10:00:42.946Z",
+        "created_at": "2023-09-07T09:00:01.542Z",
+        "updated_at": "2023-09-07T17:57:33.396Z",
+        "profit_id": "699d1c87-a83d-44d1-bc83-50b6f612c7ce"
+      },
+      {
+        "id": "a6a8a04a-e3fb-49de-9255-e29eead57ed8",
+        "mining_date": "2023-09-07T15:28:11.451Z",
+        "created_at": "2023-09-07T14:36:00.191Z",
+        "updated_at": "2023-09-07T19:31:07.823Z",
+        "profit_id": "191ca54d-5ceb-482e-bd2f-2f30d66f420c"
+      },
+      {
+        "id": "210b94f9-2242-4316-9202-05baa3d36021",
+        "mining_date": "2023-09-08T06:26:50.203Z",
+        "created_at": "2023-09-07T08:29:13.154Z",
+        "updated_at": "2023-09-07T22:36:25.120Z",
+        "profit_id": "191ca54d-5ceb-482e-bd2f-2f30d66f420c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "95f86437-2158-44e5-8af4-9e23cc69e6a0",
+        "email": "Rolando47@yahoo.com",
+        "firstName": "Boyd",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16865030",
+        "tenantId": null
+      },
+      {
+        "reference": "4455dc84-b071-45e0-8587-bf0fd0bbe3a6",
+        "email": "Victoria_Crona70@hotmail.com",
+        "firstName": "Kelton",
+        "lastName": "Johnson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56125339",
+        "tenantId": null
+      },
+      {
+        "reference": "e80fb91b-9c53-4d04-b578-feabe4974488",
+        "email": "Aaliyah_Halvorson64@hotmail.com",
+        "firstName": "Chaya",
+        "lastName": "Gislason",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/193.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "986dd041-e7e2-4d99-8871-e572815abcbc",
+        "email": "Tremayne_Zieme@hotmail.com",
+        "firstName": "Kattie",
+        "lastName": "Hauck",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/823.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2c769fc7-54ae-4022-99ad-8c5238457131",
+        "email": "Lorenza44@yahoo.com",
+        "firstName": "Eldon",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55915229",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "d349482c-7550-47a5-9076-edbdc099955c",
+        "bio": "Passionate about technology",
+        "location": "New York",
+        "website": "www.example1.com",
+        "created_at": "2023-09-07T09:00:06.899Z",
+        "updated_at": "2023-09-07T21:14:56.862Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "865567b9-d6bd-4493-9acb-7f978319e162",
+        "bio": "Nature lover",
+        "location": "London",
+        "website": "www.example2.com",
+        "created_at": "2023-09-07T09:07:13.371Z",
+        "updated_at": "2023-09-08T05:30:40.274Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e31c181-acc9-45c7-832d-4dd0e2344844",
+        "bio": "Travel enthusiast",
+        "location": "Paris",
+        "website": "www.example3.com",
+        "created_at": "2023-09-07T19:07:09.732Z",
+        "updated_at": "2023-09-07T14:21:42.100Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f720e0e-abc7-4bc3-aeb7-8ebe8f8fb80b",
+        "bio": "Foodie",
+        "location": "Tokyo",
+        "website": "www.example4.com",
+        "created_at": "2023-09-07T16:55:57.016Z",
+        "updated_at": "2023-09-07T23:26:24.752Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34a84f44-c718-43a9-abb6-95b93e889dcc",
+        "bio": "Fitness freak",
+        "location": "Sydney",
+        "website": "www.example5.com",
+        "created_at": "2023-09-08T03:02:28.388Z",
+        "updated_at": "2023-09-08T05:46:45.412Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "deposit": [
+      {
+        "id": "c0da5a92-ae75-4166-8fd1-80269ec095ad",
+        "amount": 61156,
+        "currency": "USD",
+        "created_at": "2023-09-07T18:39:53.280Z",
+        "updated_at": "2023-09-07T18:53:14.272Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1559dd0a-9181-4717-837d-0a0607eb949c",
+        "amount": 71850,
+        "currency": "EUR",
+        "created_at": "2023-09-07T08:14:18.570Z",
+        "updated_at": "2023-09-08T01:01:03.527Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69615b9d-00cf-4e63-9012-aff3e1274153",
+        "amount": 43536,
+        "currency": "GBP",
+        "created_at": "2023-09-07T08:37:03.426Z",
+        "updated_at": "2023-09-07T18:39:23.244Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b70549b-55f2-457b-9fcf-b595a62792cb",
+        "amount": 26182,
+        "currency": "JPY",
+        "created_at": "2023-09-08T01:45:53.222Z",
+        "updated_at": "2023-09-07T19:47:45.351Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4707d343-5ed3-40bc-8b79-ab1e62ed40a6",
+        "amount": 55988,
+        "currency": "AUD",
+        "created_at": "2023-09-08T06:09:20.125Z",
+        "updated_at": "2023-09-07T08:43:37.738Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "profit": [
+      {
+        "id": "e4b27b3a-033f-4bd7-8189-c8b30df2979d",
+        "percentage_gain": 0.8055542458314449,
+        "created_at": "2023-09-07T21:15:36.809Z",
+        "updated_at": "2023-09-07T21:26:34.468Z",
+        "deposit_id": "c0da5a92-ae75-4166-8fd1-80269ec095ad"
+      },
+      {
+        "id": "9b406704-2d6b-4bf2-88ce-93e22f13748d",
+        "percentage_gain": 0.7554953640792519,
+        "created_at": "2023-09-07T07:35:49.765Z",
+        "updated_at": "2023-09-08T06:25:27.151Z",
+        "deposit_id": "0b70549b-55f2-457b-9fcf-b595a62792cb"
+      },
+      {
+        "id": "ddfbd29f-8af6-404a-a34b-464fe7f1c13d",
+        "percentage_gain": 0.2724514212459326,
+        "created_at": "2023-09-08T03:47:26.433Z",
+        "updated_at": "2023-09-08T06:21:07.788Z",
+        "deposit_id": "0b70549b-55f2-457b-9fcf-b595a62792cb"
+      },
+      {
+        "id": "6dd1a485-b3f0-4d12-a9db-e5a865126a9b",
+        "percentage_gain": 0.3111402513459325,
+        "created_at": "2023-09-07T21:18:31.376Z",
+        "updated_at": "2023-09-07T22:37:03.818Z",
+        "deposit_id": "1559dd0a-9181-4717-837d-0a0607eb949c"
+      },
+      {
+        "id": "66e8922f-b504-448a-8161-cb0402ef5db3",
+        "percentage_gain": 0.9298086711205542,
+        "created_at": "2023-09-07T09:16:10.730Z",
+        "updated_at": "2023-09-07T17:36:21.062Z",
+        "deposit_id": "4707d343-5ed3-40bc-8b79-ab1e62ed40a6"
+      }
+    ],
+    "mining": [
+      {
+        "id": "314d9de3-d353-4c8e-bbc9-d01e3ed14040",
+        "mining_date": "2023-09-07T21:36:58.475Z",
+        "created_at": "2023-09-07T18:35:36.824Z",
+        "updated_at": "2023-09-07T08:47:04.980Z",
+        "profit_id": "66e8922f-b504-448a-8161-cb0402ef5db3"
+      },
+      {
+        "id": "bf72e5c1-3f13-4c02-922f-67a8f8c58dc1",
+        "mining_date": "2023-09-07T16:22:48.424Z",
+        "created_at": "2023-09-07T13:39:07.615Z",
+        "updated_at": "2023-09-07T21:57:09.328Z",
+        "profit_id": "6dd1a485-b3f0-4d12-a9db-e5a865126a9b"
+      },
+      {
+        "id": "7582beeb-b479-40d5-b6f4-14986287d999",
+        "mining_date": "2023-09-07T16:57:48.264Z",
+        "created_at": "2023-09-07T08:56:21.869Z",
+        "updated_at": "2023-09-07T11:37:38.980Z",
+        "profit_id": "9b406704-2d6b-4bf2-88ce-93e22f13748d"
+      },
+      {
+        "id": "4385a5c2-d65b-4fdc-bdf7-6f0b4807d6f3",
+        "mining_date": "2023-09-07T22:34:12.520Z",
+        "created_at": "2023-09-07T16:42:54.629Z",
+        "updated_at": "2023-09-08T00:10:52.354Z",
+        "profit_id": "6dd1a485-b3f0-4d12-a9db-e5a865126a9b"
+      },
+      {
+        "id": "01ac68c8-98d9-4eae-ad23-59e8ca444356",
+        "mining_date": "2023-09-07T08:23:24.703Z",
+        "created_at": "2023-09-07T22:15:16.861Z",
+        "updated_at": "2023-09-08T00:54:29.293Z",
+        "profit_id": "ddfbd29f-8af6-404a-a34b-464fe7f1c13d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f72d3412-092b-4364-b1a7-8771568bffa9",
+        "email": "Clair70@hotmail.com",
+        "firstName": "Kamille",
+        "lastName": "Shields",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65273853",
+        "tenantId": null
+      },
+      {
+        "reference": "51cadd61-c900-4c76-ad98-62a9ce4d99a7",
+        "email": "Delia18@yahoo.com",
+        "firstName": "Bessie",
+        "lastName": "Schmeler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57142374",
+        "tenantId": null
+      },
+      {
+        "reference": "9f273047-7d36-4314-81db-16bc193a6cba",
+        "email": "Katelin.Thompson41@yahoo.com",
+        "firstName": "Camden",
+        "lastName": "Herzog",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14070357",
+        "tenantId": null
+      },
+      {
+        "reference": "93aa5abf-1383-465f-99f6-97a500676d0e",
+        "email": "Vivianne27@yahoo.com",
+        "firstName": "Elwin",
+        "lastName": "Marquardt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1226.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "22365dc1-79b8-476e-8b3b-37ca5160e020",
+        "email": "Jamir82@gmail.com",
+        "firstName": "Ross",
+        "lastName": "Marvin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1187.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "fe437a55-b243-4d4e-83f1-1fca0c11dc2a",
+        "bio": "Passionate about technology",
+        "location": "New York",
+        "website": "www.johndoe.com",
+        "created_at": "2023-09-08T03:35:44.129Z",
+        "updated_at": "2023-09-08T02:32:27.237Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a2fad4a-aff5-4807-82b9-d10b0eff11fd",
+        "bio": "Nature lover",
+        "location": "London",
+        "website": "www.janesmith.com",
+        "created_at": "2023-09-07T18:28:24.678Z",
+        "updated_at": "2023-09-07T10:57:55.340Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f72bca4-793a-4444-9668-3e2d20e5c770",
+        "bio": "Adventure seeker",
+        "location": "Paris",
+        "website": "www.michaelbrown.com",
+        "created_at": "2023-09-07T15:49:40.977Z",
+        "updated_at": "2023-09-07T19:36:51.075Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03144b9c-9fe1-412f-9c34-203977481e0a",
+        "bio": "Food enthusiast",
+        "location": "Tokyo",
+        "website": "www.sarahjones.com",
+        "created_at": "2023-09-08T01:46:46.844Z",
+        "updated_at": "2023-09-07T22:39:16.347Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04c72478-d784-4cf9-8b34-018b2f89130c",
+        "bio": "Fitness freak",
+        "location": "Sydney",
+        "website": "www.robertwilson.com",
+        "created_at": "2023-09-08T06:42:28.083Z",
+        "updated_at": "2023-09-07T23:35:14.861Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "deposit": [
+      {
+        "id": "30e1e789-dd98-43be-89b3-dd8452322f66",
+        "amount": 82833,
+        "currency": "USD",
+        "created_at": "2023-09-08T04:13:20.724Z",
+        "updated_at": "2023-09-07T18:22:25.848Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47ac710e-32f0-4fba-889a-8cec4a53d5a5",
+        "amount": 62856,
+        "currency": "EUR",
+        "created_at": "2023-09-07T12:23:46.460Z",
+        "updated_at": "2023-09-07T18:19:37.297Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f261338-a66f-423f-992c-7b06e18a8157",
+        "amount": 47618,
+        "currency": "GBP",
+        "created_at": "2023-09-07T10:44:28.399Z",
+        "updated_at": "2023-09-07T17:41:22.665Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1622305-eda9-4722-8b39-2080b275a144",
+        "amount": 43101,
+        "currency": "JPY",
+        "created_at": "2023-09-08T05:33:57.186Z",
+        "updated_at": "2023-09-07T19:42:21.268Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52ec0a99-892b-4069-8837-32831341a521",
+        "amount": 49411,
+        "currency": "AUD",
+        "created_at": "2023-09-08T02:02:55.506Z",
+        "updated_at": "2023-09-08T00:24:44.066Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "profit": [
+      {
+        "id": "0eafc683-52ab-4b73-81bf-5a84ee83c98b",
+        "percentage_gain": 0.17066691792570055,
+        "created_at": "2023-09-07T20:20:23.945Z",
+        "updated_at": "2023-09-07T15:46:19.383Z",
+        "deposit_id": "52ec0a99-892b-4069-8837-32831341a521"
+      },
+      {
+        "id": "11a29de1-55e8-4935-8c16-bdcebd4fe1c8",
+        "percentage_gain": 0.8464015864301473,
+        "created_at": "2023-09-07T23:57:38.306Z",
+        "updated_at": "2023-09-07T19:22:49.355Z",
+        "deposit_id": "52ec0a99-892b-4069-8837-32831341a521"
+      },
+      {
+        "id": "8061d10c-5349-492a-8552-272cbf28eddf",
+        "percentage_gain": 0.6704321170691401,
+        "created_at": "2023-09-07T21:45:28.745Z",
+        "updated_at": "2023-09-07T14:26:16.913Z",
+        "deposit_id": "30e1e789-dd98-43be-89b3-dd8452322f66"
+      },
+      {
+        "id": "72905f92-b98d-453d-a3fe-06298fc11687",
+        "percentage_gain": 0.5620511462911963,
+        "created_at": "2023-09-07T21:05:06.049Z",
+        "updated_at": "2023-09-07T07:53:13.678Z",
+        "deposit_id": "47ac710e-32f0-4fba-889a-8cec4a53d5a5"
+      },
+      {
+        "id": "c6663fcb-21d6-4c8b-816e-7cf7d5796c68",
+        "percentage_gain": 0.19731278787367046,
+        "created_at": "2023-09-07T20:49:56.496Z",
+        "updated_at": "2023-09-08T05:41:30.790Z",
+        "deposit_id": "52ec0a99-892b-4069-8837-32831341a521"
+      }
+    ],
+    "mining": [
+      {
+        "id": "d66a2d64-0401-4bb3-90b9-fac66dad90a2",
+        "mining_date": "2023-09-07T16:59:01.100Z",
+        "created_at": "2023-09-07T08:45:59.490Z",
+        "updated_at": "2023-09-08T01:14:04.089Z",
+        "profit_id": "11a29de1-55e8-4935-8c16-bdcebd4fe1c8"
+      },
+      {
+        "id": "fb4b1065-df5d-49ec-8bfc-b6294c32cd94",
+        "mining_date": "2023-09-07T12:32:08.891Z",
+        "created_at": "2023-09-07T21:59:43.906Z",
+        "updated_at": "2023-09-08T03:09:57.461Z",
+        "profit_id": "72905f92-b98d-453d-a3fe-06298fc11687"
+      },
+      {
+        "id": "306184bd-b482-458b-9e09-443c2b965d5c",
+        "mining_date": "2023-09-08T00:49:43.736Z",
+        "created_at": "2023-09-08T01:21:50.476Z",
+        "updated_at": "2023-09-07T21:39:12.396Z",
+        "profit_id": "72905f92-b98d-453d-a3fe-06298fc11687"
+      },
+      {
+        "id": "212f7400-459d-40e7-b13c-ca8126989073",
+        "mining_date": "2023-09-07T13:52:02.634Z",
+        "created_at": "2023-09-08T03:49:58.301Z",
+        "updated_at": "2023-09-08T02:39:40.359Z",
+        "profit_id": "8061d10c-5349-492a-8552-272cbf28eddf"
+      },
+      {
+        "id": "94a66779-b969-43d0-a40a-5a9c2b812c0b",
+        "mining_date": "2023-09-08T01:48:45.485Z",
+        "created_at": "2023-09-07T11:21:48.250Z",
+        "updated_at": "2023-09-07T17:53:36.665Z",
+        "profit_id": "72905f92-b98d-453d-a3fe-06298fc11687"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "81e65d90-a9e1-41d0-84a8-9560165cc6fd",
+        "email": "Coty.Schiller@yahoo.com",
+        "firstName": "Katharina",
+        "lastName": "Mueller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34369773",
+        "tenantId": null
+      },
+      {
+        "reference": "277ca3c9-4a5e-4bd3-934d-665912693013",
+        "email": "Remington_Smitham@yahoo.com",
+        "firstName": "Vicenta",
+        "lastName": "Legros",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88550223",
+        "tenantId": null
+      },
+      {
+        "reference": "a1233c7d-3358-4167-8b82-dbbef602c941",
+        "email": "Dixie78@gmail.com",
+        "firstName": "Carole",
+        "lastName": "Torp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/900.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "34377f7f-e46d-49e4-b156-206d78108beb",
+        "email": "Sylvan_Price@gmail.com",
+        "firstName": "Junius",
+        "lastName": "Graham",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1188.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cefab999-7ef5-4233-b43f-a369e7907466",
+        "email": "Jerod6@yahoo.com",
+        "firstName": "Liam",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29442433",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "571ed8d7-753a-45ce-af5b-7b285fc1de2c",
+        "bio": "Passionate about technology",
+        "location": "New York",
+        "website": "www.johndoe.com",
+        "created_at": "2023-09-08T04:48:38.591Z",
+        "updated_at": "2023-09-07T10:31:52.712Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "002c86fd-ebd1-4528-8372-26e39026d48a",
+        "bio": "Nature lover and adventurer",
+        "location": "London",
+        "website": "www.janesmith.com",
+        "created_at": "2023-09-08T03:43:18.124Z",
+        "updated_at": "2023-09-07T11:20:38.839Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d2de30b-0212-45cf-9171-bd589809627b",
+        "bio": "Music enthusiast",
+        "location": "Tokyo",
+        "website": "www.michaelbrown.com",
+        "created_at": "2023-09-07T10:00:24.971Z",
+        "updated_at": "2023-09-07T21:07:38.987Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd15975b-b819-4c7d-ab45-143347dff1a2",
+        "bio": "Foodie and chef",
+        "location": "Sydney",
+        "website": "www.sarahjones.com",
+        "created_at": "2023-09-07T17:29:05.419Z",
+        "updated_at": "2023-09-07T19:31:40.474Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8720d375-09b8-4baf-8ce3-7c1b08aae0c5",
+        "bio": "Fitness freak",
+        "location": "Paris",
+        "website": "www.davidwilson.com",
+        "created_at": "2023-09-08T06:19:06.304Z",
+        "updated_at": "2023-09-07T07:27:43.475Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "deposit": [
+      {
+        "id": "0a611a29-3983-48ab-8456-6e59beb0647b",
+        "amount": 9513,
+        "currency": "USD",
+        "created_at": "2023-09-08T04:41:18.774Z",
+        "updated_at": "2023-09-08T07:10:08.489Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3accaebd-365b-4e7d-a70a-3db39225d978",
+        "amount": 62420,
+        "currency": "EUR",
+        "created_at": "2023-09-07T09:27:24.631Z",
+        "updated_at": "2023-09-08T04:47:37.032Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ad1cb1d-82b4-42fa-85d9-022b59bcdb04",
+        "amount": 52958,
+        "currency": "JPY",
+        "created_at": "2023-09-07T18:19:38.229Z",
+        "updated_at": "2023-09-07T11:02:27.018Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07944081-3367-445b-86ca-53726d426714",
+        "amount": 10290,
+        "currency": "GBP",
+        "created_at": "2023-09-08T06:44:16.759Z",
+        "updated_at": "2023-09-08T04:26:09.456Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0390b25-2317-4a3d-993e-914959834875",
+        "amount": 58530,
+        "currency": "AUD",
+        "created_at": "2023-09-07T07:53:07.040Z",
+        "updated_at": "2023-09-07T23:17:31.868Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "profit": [
+      {
+        "id": "3afaf716-5700-4fd3-94f1-cc44f424c494",
+        "percentage_gain": 0.929868864826858,
+        "created_at": "2023-09-07T10:47:50.945Z",
+        "updated_at": "2023-09-07T18:37:41.450Z",
+        "deposit_id": "2ad1cb1d-82b4-42fa-85d9-022b59bcdb04"
+      },
+      {
+        "id": "ac4c5b7b-dda5-4eb7-a955-5532e37dd9c2",
+        "percentage_gain": 0.3139805858954787,
+        "created_at": "2023-09-07T09:18:33.672Z",
+        "updated_at": "2023-09-08T01:15:26.295Z",
+        "deposit_id": "3accaebd-365b-4e7d-a70a-3db39225d978"
+      },
+      {
+        "id": "ee8da0b5-d410-4c49-83c3-66e276f875f8",
+        "percentage_gain": 0.7413311412092298,
+        "created_at": "2023-09-07T20:49:46.407Z",
+        "updated_at": "2023-09-07T19:34:15.792Z",
+        "deposit_id": "2ad1cb1d-82b4-42fa-85d9-022b59bcdb04"
+      },
+      {
+        "id": "a7b0a444-0d57-4a29-bb1b-04c69fed70aa",
+        "percentage_gain": 0.4277817839756608,
+        "created_at": "2023-09-08T03:31:48.804Z",
+        "updated_at": "2023-09-07T20:46:15.822Z",
+        "deposit_id": "0a611a29-3983-48ab-8456-6e59beb0647b"
+      },
+      {
+        "id": "bc5f973d-37e5-4cb5-bc84-bd36de4e141f",
+        "percentage_gain": 0.009474089602008462,
+        "created_at": "2023-09-07T20:02:29.113Z",
+        "updated_at": "2023-09-07T23:25:23.148Z",
+        "deposit_id": "3accaebd-365b-4e7d-a70a-3db39225d978"
+      }
+    ],
+    "mining": [
+      {
+        "id": "d306ba30-b813-48c8-abf8-6f4ce7f2b3db",
+        "mining_date": "2023-09-07T19:09:36.305Z",
+        "created_at": "2023-09-07T23:43:03.099Z",
+        "updated_at": "2023-09-07T15:31:43.779Z",
+        "profit_id": "ee8da0b5-d410-4c49-83c3-66e276f875f8"
+      },
+      {
+        "id": "e014ca84-679c-467b-9b59-2a332ed6c607",
+        "mining_date": "2023-09-07T08:33:38.083Z",
+        "created_at": "2023-09-08T04:51:56.032Z",
+        "updated_at": "2023-09-07T08:02:51.733Z",
+        "profit_id": "ee8da0b5-d410-4c49-83c3-66e276f875f8"
+      },
+      {
+        "id": "675328d9-26d4-4845-965d-4603afdcde07",
+        "mining_date": "2023-09-07T23:23:20.648Z",
+        "created_at": "2023-09-08T02:39:40.340Z",
+        "updated_at": "2023-09-07T19:10:48.365Z",
+        "profit_id": "3afaf716-5700-4fd3-94f1-cc44f424c494"
+      },
+      {
+        "id": "69d722d7-5b53-4dd5-8b13-773e4d4f0f3c",
+        "mining_date": "2023-09-07T09:35:12.920Z",
+        "created_at": "2023-09-07T12:12:31.876Z",
+        "updated_at": "2023-09-08T01:04:23.739Z",
+        "profit_id": "bc5f973d-37e5-4cb5-bc84-bd36de4e141f"
+      },
+      {
+        "id": "ce7d85fb-7ce2-4f63-b4ba-c2ad7267d57c",
+        "mining_date": "2023-09-08T06:47:46.657Z",
+        "created_at": "2023-09-08T00:47:58.389Z",
+        "updated_at": "2023-09-08T05:34:40.179Z",
+        "profit_id": "bc5f973d-37e5-4cb5-bc84-bd36de4e141f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7cd43cdc-f916-4a4c-b8ce-8c6bbb1ed8b2",
+        "email": "Christian.Spencer21@gmail.com",
+        "firstName": "Tyra",
+        "lastName": "Casper",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70593368",
+        "tenantId": null
+      },
+      {
+        "reference": "1898ce08-0a62-4e90-9618-82432f7a5333",
+        "email": "Franco_Will56@hotmail.com",
+        "firstName": "Macy",
+        "lastName": "Bahringer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86986958",
+        "tenantId": null
+      },
+      {
+        "reference": "6498c0dd-f03c-4ee3-ae9d-86d9e74d8718",
+        "email": "Dejon52@gmail.com",
+        "firstName": "Gabrielle",
+        "lastName": "Gleichner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50660088",
+        "tenantId": null
+      },
+      {
+        "reference": "9ed1ae94-9c66-4127-a9a5-ac40807f8fe1",
+        "email": "Evert_Ernser@hotmail.com",
+        "firstName": "Lauriane",
+        "lastName": "Bergnaum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91138889",
+        "tenantId": null
+      },
+      {
+        "reference": "94e5c131-5159-4a24-9eaa-eed67edf6c50",
+        "email": "Zackary58@gmail.com",
+        "firstName": "Jerel",
+        "lastName": "Zemlak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1030.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "8ed720f8-25ba-42d6-bc3e-d21db98d98cd",
+        "bio": "Passionate about photography",
+        "location": "New York",
+        "website": "www.johndoe.com",
+        "created_at": "2023-09-07T09:13:14.089Z",
+        "updated_at": "2023-09-07T22:01:36.095Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3ea1128-952b-4d08-8878-0a3000bb380a",
+        "bio": "Nature lover and adventurer",
+        "location": "London",
+        "website": "www.janesmith.com",
+        "created_at": "2023-09-07T12:54:16.470Z",
+        "updated_at": "2023-09-07T09:47:03.264Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5706bd9-c555-43b0-92f3-08f1c670e68b",
+        "bio": "Tech enthusiast and gamer",
+        "location": "Tokyo",
+        "website": "www.michaelbrown.com",
+        "created_at": "2023-09-07T16:41:11.252Z",
+        "updated_at": "2023-09-07T18:14:10.223Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d5e629c-a34d-4791-8382-441865be32fc",
+        "bio": "Foodie and travel addict",
+        "location": "Sydney",
+        "website": "www.sarahjones.com",
+        "created_at": "2023-09-08T02:54:14.014Z",
+        "updated_at": "2023-09-08T06:40:33.000Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "027ef394-2258-4ad4-ad0b-3431c61cd13e",
+        "bio": "Fitness freak and yoga lover",
+        "location": "Paris",
+        "website": "www.davidwilson.com",
+        "created_at": "2023-09-08T02:41:48.752Z",
+        "updated_at": "2023-09-08T01:51:17.344Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "deposit": [
+      {
+        "id": "090e6641-56c8-4bcc-8ac6-1fb4fe4b842b",
+        "amount": 96787,
+        "currency": "USD",
+        "created_at": "2023-09-07T11:36:46.366Z",
+        "updated_at": "2023-09-07T15:06:37.708Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1f467bd-7549-4273-b43d-254261506a37",
+        "amount": 36400,
+        "currency": "EUR",
+        "created_at": "2023-09-07T18:37:14.747Z",
+        "updated_at": "2023-09-07T07:38:00.730Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78ff9d41-9211-4630-bb16-f53d7b2b376c",
+        "amount": 49558,
+        "currency": "GBP",
+        "created_at": "2023-09-07T11:46:42.754Z",
+        "updated_at": "2023-09-07T15:08:31.671Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b855c184-5bea-48aa-93fd-7b310de5e2bf",
+        "amount": 9419,
+        "currency": "JPY",
+        "created_at": "2023-09-07T20:27:43.610Z",
+        "updated_at": "2023-09-07T12:50:52.993Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4720fc3-aa9e-493a-b021-96635713f2e5",
+        "amount": 47464,
+        "currency": "AUD",
+        "created_at": "2023-09-08T03:00:08.781Z",
+        "updated_at": "2023-09-07T16:09:24.851Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "profit": [
+      {
+        "id": "aaafe34b-f627-4a19-8a4a-409a1bd7bbd4",
+        "percentage_gain": 0.3872288423590362,
+        "created_at": "2023-09-08T02:25:48.732Z",
+        "updated_at": "2023-09-07T08:34:33.888Z",
+        "deposit_id": "b855c184-5bea-48aa-93fd-7b310de5e2bf"
+      },
+      {
+        "id": "502be298-6204-4215-ada0-605e52654d12",
+        "percentage_gain": 0.040615666192024946,
+        "created_at": "2023-09-08T01:31:09.376Z",
+        "updated_at": "2023-09-07T19:14:15.230Z",
+        "deposit_id": "a1f467bd-7549-4273-b43d-254261506a37"
+      },
+      {
+        "id": "02f6ad9c-aa03-4930-af60-712d9a10670c",
+        "percentage_gain": 0.9010111689567566,
+        "created_at": "2023-09-08T02:26:13.396Z",
+        "updated_at": "2023-09-08T03:57:14.603Z",
+        "deposit_id": "b855c184-5bea-48aa-93fd-7b310de5e2bf"
+      },
+      {
+        "id": "584177f1-aad8-459e-9732-66503a466ca4",
+        "percentage_gain": 0.6826493416447192,
+        "created_at": "2023-09-07T22:59:04.015Z",
+        "updated_at": "2023-09-08T02:57:38.828Z",
+        "deposit_id": "090e6641-56c8-4bcc-8ac6-1fb4fe4b842b"
+      },
+      {
+        "id": "95138c83-0af5-4c4b-8731-abaaf51ffaaa",
+        "percentage_gain": 0.39654540992341936,
+        "created_at": "2023-09-08T01:53:01.666Z",
+        "updated_at": "2023-09-07T11:25:33.526Z",
+        "deposit_id": "090e6641-56c8-4bcc-8ac6-1fb4fe4b842b"
+      }
+    ],
+    "mining": [
+      {
+        "id": "aca2c14e-22e3-4486-baa2-c84a11c792df",
+        "mining_date": "2023-09-08T02:48:13.089Z",
+        "created_at": "2023-09-08T00:22:18.079Z",
+        "updated_at": "2023-09-07T12:36:47.991Z",
+        "profit_id": "aaafe34b-f627-4a19-8a4a-409a1bd7bbd4"
+      },
+      {
+        "id": "103f3946-dc09-4557-aebd-edfed133ee05",
+        "mining_date": "2023-09-07T13:40:26.734Z",
+        "created_at": "2023-09-07T07:53:15.953Z",
+        "updated_at": "2023-09-07T17:35:37.327Z",
+        "profit_id": "502be298-6204-4215-ada0-605e52654d12"
+      },
+      {
+        "id": "b4388f00-c602-4b31-b27f-9544dbf2cd6f",
+        "mining_date": "2023-09-08T00:21:00.063Z",
+        "created_at": "2023-09-07T15:50:26.810Z",
+        "updated_at": "2023-09-08T01:26:28.916Z",
+        "profit_id": "584177f1-aad8-459e-9732-66503a466ca4"
+      },
+      {
+        "id": "3e38ebaf-a207-4dc6-891c-9c3145c223da",
+        "mining_date": "2023-09-07T09:33:57.097Z",
+        "created_at": "2023-09-07T08:07:43.205Z",
+        "updated_at": "2023-09-07T15:07:47.012Z",
+        "profit_id": "584177f1-aad8-459e-9732-66503a466ca4"
+      },
+      {
+        "id": "269634f9-ab2b-474f-996f-718477e97cab",
+        "mining_date": "2023-09-07T11:46:29.195Z",
+        "created_at": "2023-09-08T03:07:05.688Z",
+        "updated_at": "2023-09-07T21:59:00.428Z",
+        "profit_id": "aaafe34b-f627-4a19-8a4a-409a1bd7bbd4"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "469ee7a2-bc39-4921-bfb7-17e781c549e9",
+        "email": "Grant39@yahoo.com",
+        "firstName": "Eliezer",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68562418",
+        "tenantId": null
+      },
+      {
+        "reference": "a14a3a04-e96d-4777-b322-c1e61d5aea38",
+        "email": "Norwood.Denesik53@gmail.com",
+        "firstName": "Linnie",
+        "lastName": "Smith",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89166968",
+        "tenantId": null
+      },
+      {
+        "reference": "1815bc8a-1568-4b00-9bed-c0dd23d560c6",
+        "email": "Trent_Marvin@gmail.com",
+        "firstName": "Maia",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1702948",
+        "tenantId": null
+      },
+      {
+        "reference": "71864a91-50b0-4b81-878f-f8f31d979402",
+        "email": "Lavern71@hotmail.com",
+        "firstName": "Greg",
+        "lastName": "Okuneva",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/486.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "498ae319-c9b4-4e38-9bc6-005abdbd3ddb",
+        "email": "Nona_Leannon36@gmail.com",
+        "firstName": "Mathilde",
+        "lastName": "Bogisich-Schneider",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/893.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "01404d0b-953d-42f2-bfdd-8adffd5476da",
+        "bio": "Passionate about photography",
+        "location": "New York",
+        "website": "www.johndoe.com",
+        "created_at": "2023-09-08T01:27:27.415Z",
+        "updated_at": "2023-09-07T15:41:51.030Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d35365ac-fa7d-4ddf-ba83-12c4bbb1eb97",
+        "bio": "Tech enthusiast",
+        "location": "London",
+        "website": "www.janesmith.com",
+        "created_at": "2023-09-08T06:09:26.095Z",
+        "updated_at": "2023-09-07T13:49:50.292Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c39277ea-931d-4dfc-8e6d-222c4a673a8e",
+        "bio": "Nature lover",
+        "location": "Paris",
+        "website": "www.michaelbrown.com",
+        "created_at": "2023-09-08T01:01:15.427Z",
+        "updated_at": "2023-09-07T11:53:03.302Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1462d2d5-55d9-4384-8b24-e9b86f7be961",
+        "bio": "Foodie",
+        "location": "Tokyo",
+        "website": "www.sarahjones.com",
+        "created_at": "2023-09-08T04:20:43.367Z",
+        "updated_at": "2023-09-08T00:02:48.994Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a2de5a6-2fa7-426f-bec1-c112c575e14a",
+        "bio": "Fitness freak",
+        "location": "Sydney",
+        "website": "www.robertwilson.com",
+        "created_at": "2023-09-07T18:37:42.776Z",
+        "updated_at": "2023-09-07T09:38:50.033Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "deposit": [
+      {
+        "id": "58f2fd89-e400-4487-8674-c18178cf59d0",
+        "amount": 7356,
+        "currency": "USD",
+        "created_at": "2023-09-08T07:08:24.035Z",
+        "updated_at": "2023-09-07T17:37:04.835Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "337755ed-8ac7-49ee-8f7b-a5526be1fd07",
+        "amount": 9060,
+        "currency": "EUR",
+        "created_at": "2023-09-07T08:24:51.895Z",
+        "updated_at": "2023-09-07T13:58:04.496Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "500aff3f-7b45-4ba0-a6be-d78cb9f60293",
+        "amount": 33319,
+        "currency": "GBP",
+        "created_at": "2023-09-07T09:08:29.107Z",
+        "updated_at": "2023-09-07T22:57:09.940Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de5529f2-8a16-4a6a-bc51-0a27fe49051f",
+        "amount": 94216,
+        "currency": "JPY",
+        "created_at": "2023-09-08T03:34:13.802Z",
+        "updated_at": "2023-09-07T22:27:54.347Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51aa391e-3d23-46f6-8992-7ab860ca037a",
+        "amount": 62122,
+        "currency": "AUD",
+        "created_at": "2023-09-07T15:38:37.124Z",
+        "updated_at": "2023-09-08T06:21:24.380Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "profit": [
+      {
+        "id": "12296107-34bc-4b3d-89fb-125a0d63625b",
+        "percentage_gain": 0.757204451598227,
+        "created_at": "2023-09-07T14:12:28.003Z",
+        "updated_at": "2023-09-07T18:26:54.545Z",
+        "deposit_id": "337755ed-8ac7-49ee-8f7b-a5526be1fd07"
+      },
+      {
+        "id": "61c0be4e-425b-40f9-a78d-657cf2318e7e",
+        "percentage_gain": 0.9198044915683568,
+        "created_at": "2023-09-07T17:32:54.915Z",
+        "updated_at": "2023-09-07T09:56:45.321Z",
+        "deposit_id": "51aa391e-3d23-46f6-8992-7ab860ca037a"
+      },
+      {
+        "id": "c7dc6359-211e-478e-895c-0f6f0c4890a5",
+        "percentage_gain": 0.3069493127986789,
+        "created_at": "2023-09-08T04:19:13.993Z",
+        "updated_at": "2023-09-07T11:08:33.284Z",
+        "deposit_id": "51aa391e-3d23-46f6-8992-7ab860ca037a"
+      },
+      {
+        "id": "2cc86c04-e09a-4739-8638-9d8c87f75038",
+        "percentage_gain": 0.15979547053575516,
+        "created_at": "2023-09-07T08:36:22.086Z",
+        "updated_at": "2023-09-08T05:58:42.439Z",
+        "deposit_id": "58f2fd89-e400-4487-8674-c18178cf59d0"
+      },
+      {
+        "id": "d66eafc2-80ce-4d99-b774-0e9d4d3c81e3",
+        "percentage_gain": 0.8766386792995036,
+        "created_at": "2023-09-07T07:40:45.889Z",
+        "updated_at": "2023-09-07T15:55:32.498Z",
+        "deposit_id": "500aff3f-7b45-4ba0-a6be-d78cb9f60293"
+      }
+    ],
+    "mining": [
+      {
+        "id": "bd1b8f93-702b-4136-bd36-026313b8d115",
+        "mining_date": "2023-09-07T11:19:08.021Z",
+        "created_at": "2023-09-07T21:37:15.845Z",
+        "updated_at": "2023-09-07T17:26:54.002Z",
+        "profit_id": "d66eafc2-80ce-4d99-b774-0e9d4d3c81e3"
+      },
+      {
+        "id": "2229fb8f-3c4e-49c7-9476-2fb85333b57b",
+        "mining_date": "2023-09-07T08:02:38.136Z",
+        "created_at": "2023-09-08T02:22:27.051Z",
+        "updated_at": "2023-09-08T04:36:08.630Z",
+        "profit_id": "61c0be4e-425b-40f9-a78d-657cf2318e7e"
+      },
+      {
+        "id": "68c01612-2c41-4a77-bb51-069e8881f3c8",
+        "mining_date": "2023-09-08T07:02:47.965Z",
+        "created_at": "2023-09-07T16:08:19.649Z",
+        "updated_at": "2023-09-07T08:06:26.101Z",
+        "profit_id": "d66eafc2-80ce-4d99-b774-0e9d4d3c81e3"
+      },
+      {
+        "id": "7acfb4b9-9f06-425c-8fa2-ae9ba23f96e1",
+        "mining_date": "2023-09-07T08:45:59.015Z",
+        "created_at": "2023-09-07T17:42:25.284Z",
+        "updated_at": "2023-09-07T13:36:07.636Z",
+        "profit_id": "d66eafc2-80ce-4d99-b774-0e9d4d3c81e3"
+      },
+      {
+        "id": "5f05d339-4556-4178-acda-a9ac1ba6b0b0",
+        "mining_date": "2023-09-07T10:41:48.767Z",
+        "created_at": "2023-09-07T08:54:31.784Z",
+        "updated_at": "2023-09-07T17:01:25.943Z",
+        "profit_id": "12296107-34bc-4b3d-89fb-125a0d63625b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bd641c35-24e6-4c18-9bf9-be5f36b3ea20",
+        "email": "Jacky_Bosco-Ullrich9@gmail.com",
+        "firstName": "Reanna",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93737403",
+        "tenantId": null
+      },
+      {
+        "reference": "91695a98-81cb-426a-a9eb-77ca46c704ae",
+        "email": "Tamia16@yahoo.com",
+        "firstName": "Wilber",
+        "lastName": "Brown",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29158730",
+        "tenantId": null
+      },
+      {
+        "reference": "982d6380-532f-4c64-bb0e-37d2357366e0",
+        "email": "Jeanette_Beahan60@hotmail.com",
+        "firstName": "Kaylee",
+        "lastName": "Stanton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/191.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "57cc10ac-6e60-4b2e-b2d8-d9fd265006df",
+        "email": "Jesse_Klocko@gmail.com",
+        "firstName": "Mckenzie",
+        "lastName": "Boehm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29402628",
+        "tenantId": null
+      },
+      {
+        "reference": "e5e6bf7f-77bc-490a-a063-f0d01e08f7f9",
+        "email": "Justyn_Steuber-Champlin51@hotmail.com",
+        "firstName": "Bridie",
+        "lastName": "Towne",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/912.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "profile": [
+      {
+        "id": "0a3c4b8c-8192-4274-bc05-bc418f5ff08f",
+        "bio": "Passionate about photography",
+        "location": "New York",
+        "website": "www.johndoe.com",
+        "created_at": "2023-09-08T01:45:11.542Z",
+        "updated_at": "2023-09-07T21:04:27.041Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d59a7276-bc39-47e5-ab78-67603c7a7f05",
+        "bio": "Adventurous traveler",
+        "location": "London",
+        "website": "www.janesmith.com",
+        "created_at": "2023-09-07T23:59:57.575Z",
+        "updated_at": "2023-09-07T10:09:51.848Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c2ef3fe-3b05-4ecc-9296-c4e000f675c0",
+        "bio": "Tech enthusiast",
+        "location": "Tokyo",
+        "website": "www.michaelbrown.com",
+        "created_at": "2023-09-08T05:08:33.524Z",
+        "updated_at": "2023-09-07T11:15:18.138Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80b5ecfa-8b58-4ef1-b348-b84b82b2cc4d",
+        "bio": "Nature lover",
+        "location": "Paris",
+        "website": "www.sarahjones.com",
+        "created_at": "2023-09-07T18:14:19.405Z",
+        "updated_at": "2023-09-07T15:03:08.718Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1669342b-3fe5-4464-b4cd-0147c118a1f9",
+        "bio": "Foodie",
+        "location": "Sydney",
+        "website": "www.robertwilson.com",
+        "created_at": "2023-09-07T16:19:59.606Z",
+        "updated_at": "2023-09-07T18:58:35.489Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "deposit": [
+      {
+        "id": "732c5a51-7ae3-4b07-8769-982ab404fe10",
+        "amount": 64925,
+        "currency": "USD",
+        "created_at": "2023-09-07T18:43:47.197Z",
+        "updated_at": "2023-09-07T14:33:18.743Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aac4c8ea-8889-4b59-8918-b60367ddb06c",
+        "amount": 54716,
+        "currency": "EUR",
+        "created_at": "2023-09-07T12:27:43.522Z",
+        "updated_at": "2023-09-07T07:44:30.238Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b06b76e-c7c0-497a-ae8e-a055a819b091",
+        "amount": 81076,
+        "currency": "JPY",
+        "created_at": "2023-09-08T01:53:12.994Z",
+        "updated_at": "2023-09-08T03:33:21.315Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d6713e3-118d-494e-b596-a027aa82d6bb",
+        "amount": 58170,
+        "currency": "GBP",
+        "created_at": "2023-09-07T23:50:39.787Z",
+        "updated_at": "2023-09-07T10:30:41.257Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46351295-c03d-415d-8abf-58b1cedde30a",
+        "amount": 75176,
+        "currency": "AUD",
+        "created_at": "2023-09-08T04:24:36.815Z",
+        "updated_at": "2023-09-07T17:58:40.587Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "profit": [
+      {
+        "id": "bf66d750-f1b3-423d-a32d-3acae3ade497",
+        "percentage_gain": 0.7032307675108314,
+        "created_at": "2023-09-07T11:09:45.208Z",
+        "updated_at": "2023-09-08T04:08:22.272Z",
+        "deposit_id": "3d6713e3-118d-494e-b596-a027aa82d6bb"
+      },
+      {
+        "id": "cfe6c65f-0729-42a8-aec2-85c3819276c2",
+        "percentage_gain": 0.6281619109213352,
+        "created_at": "2023-09-07T16:24:41.927Z",
+        "updated_at": "2023-09-07T09:18:08.193Z",
+        "deposit_id": "46351295-c03d-415d-8abf-58b1cedde30a"
+      },
+      {
+        "id": "6f3605a4-db6d-4fc7-99c3-25db6edf5a48",
+        "percentage_gain": 0.7102662294637412,
+        "created_at": "2023-09-07T21:55:40.290Z",
+        "updated_at": "2023-09-07T21:56:53.963Z",
+        "deposit_id": "aac4c8ea-8889-4b59-8918-b60367ddb06c"
+      },
+      {
+        "id": "62d24e8e-a156-42c2-9ee7-c57be72fbe2e",
+        "percentage_gain": 0.481098955264315,
+        "created_at": "2023-09-07T15:46:49.632Z",
+        "updated_at": "2023-09-07T21:04:09.160Z",
+        "deposit_id": "aac4c8ea-8889-4b59-8918-b60367ddb06c"
+      },
+      {
+        "id": "f9524735-9633-4812-8734-5f42a7619868",
+        "percentage_gain": 0.2805772707797587,
+        "created_at": "2023-09-08T00:21:01.465Z",
+        "updated_at": "2023-09-08T03:08:16.935Z",
+        "deposit_id": "3d6713e3-118d-494e-b596-a027aa82d6bb"
+      }
+    ],
+    "mining": [
+      {
+        "id": "9deb135f-445f-4911-8e03-fdf2e5cb26f2",
+        "mining_date": "2023-09-07T20:29:30.597Z",
+        "created_at": "2023-09-07T17:17:30.239Z",
+        "updated_at": "2023-09-08T02:25:19.943Z",
+        "profit_id": "cfe6c65f-0729-42a8-aec2-85c3819276c2"
+      },
+      {
+        "id": "748a0522-2f56-4605-aaff-a0d6bf15b3e7",
+        "mining_date": "2023-09-08T00:13:21.768Z",
+        "created_at": "2023-09-07T08:56:43.934Z",
+        "updated_at": "2023-09-07T10:59:15.412Z",
+        "profit_id": "cfe6c65f-0729-42a8-aec2-85c3819276c2"
+      },
+      {
+        "id": "61cdfd91-2b6f-4b0d-8887-5fa4bba4e9a7",
+        "mining_date": "2023-09-07T14:40:05.350Z",
+        "created_at": "2023-09-08T03:45:43.210Z",
+        "updated_at": "2023-09-07T07:38:20.237Z",
+        "profit_id": "62d24e8e-a156-42c2-9ee7-c57be72fbe2e"
+      },
+      {
+        "id": "be66fc9e-70f4-481b-906e-cfab24c8589b",
+        "mining_date": "2023-09-07T15:56:00.785Z",
+        "created_at": "2023-09-07T21:47:33.391Z",
+        "updated_at": "2023-09-07T10:40:27.301Z",
+        "profit_id": "6f3605a4-db6d-4fc7-99c3-25db6edf5a48"
+      },
+      {
+        "id": "58d9dd91-c1cb-469c-8e48-2543c6283887",
+        "mining_date": "2023-09-08T01:59:40.011Z",
+        "created_at": "2023-09-08T02:11:37.452Z",
+        "updated_at": "2023-09-07T07:52:52.438Z",
+        "profit_id": "cfe6c65f-0729-42a8-aec2-85c3819276c2"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f912c492-8b81-4e95-b421-e1bfca08d4c8",
+        "email": "Nannie.Keebler@yahoo.com",
+        "firstName": "Ransom",
+        "lastName": "Boehm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87543648",
+        "tenantId": null
+      },
+      {
+        "reference": "249f859e-2b63-4e6a-918f-dcd8e9e9ce60",
+        "email": "Mary_Cassin51@gmail.com",
+        "firstName": "Viola",
+        "lastName": "Auer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/312.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0016b1f7-d348-4cca-8707-2a1b932cb630",
+        "email": "Noe51@hotmail.com",
+        "firstName": "Nathen",
+        "lastName": "Thompson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12942501",
+        "tenantId": null
+      },
+      {
+        "reference": "04bc9213-866f-450d-adf0-bb3ba1de7422",
+        "email": "Ashley34@hotmail.com",
+        "firstName": "Evelyn",
+        "lastName": "Davis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/247.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a97adcc4-63a2-4637-8a20-980421ad79e1",
+        "email": "Mozelle.Harber6@hotmail.com",
+        "firstName": "Madyson",
+        "lastName": "Wyman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/798.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
